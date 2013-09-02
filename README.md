@@ -4,8 +4,9 @@ RESTeasy is a simple REST client for WinRT. Using RESTEasy, fetching data from a
 is easy and fast. Support for design time data is also included.
 
 To use RESTeasy in your view model
-
+  <blockquote>
  string url = "<json endpoint>";
             
  var client = new RestClient();
  var results = await client.GetAsync<ResponseModel>(url);
+   </blockquote>
